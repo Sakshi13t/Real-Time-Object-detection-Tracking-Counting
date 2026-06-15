@@ -17,9 +17,10 @@ The inference pipeline was optimised with **TensorRT + GStreamer**, reducing lat
 ---
 
 ## Demo
+<img width="1912" height="893" alt="image" src="https://github.com/user-attachments/assets/f8c6f442-571e-4229-8770-5bd493924962" />
+<img width="1911" height="885" alt="image" src="https://github.com/user-attachments/assets/d4e88584-6019-4de8-ac67-ca84e595c99f" />
 
-<!-- Add your screenshots here once captured -->
-> Screenshots coming soon — system is deployed on-site. Output includes live bounding boxes, track IDs, and a running bag count overlaid on the video feed.
+>  system is deployed on-site. Output includes live bounding boxes, track IDs, and a running bag count overlaid on the video feed.
 
 **Suggested screenshots to add:**
 - Live feed with bounding boxes + track IDs
@@ -35,7 +36,7 @@ The inference pipeline was optimised with **TensorRT + GStreamer**, reducing lat
 | Counting accuracy | 99% |
 | Inference latency (before optimisation) | ~200ms |
 | Inference latency (after TensorRT) | ~100ms |
-| Throughput | 15–20 FPS |
+| Throughput | 35-40 FPS |
 | Deployment | 24/7, 4+ cement plants |
 | Hardware | NVIDIA Jetson AGX Orin / Orin Nano |
 
