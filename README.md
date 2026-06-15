@@ -44,7 +44,7 @@ Inference latency was reduced from ~200ms to ~100ms through TensorRT optimisatio
 | Counting accuracy | 99% |
 | Inference latency (before) | ~200ms |
 | Inference latency (after TensorRT) | ~100ms |
-| Throughput | 15–20 FPS |
+| Throughput | 30-45 FPS |
 | Deployment | 24/7, 4+ cement plants |
 | Cameras supported | Multi-camera (RTSP) |
 | Hardware | NVIDIA Jetson AGX Orin / Orin Nano |
@@ -195,7 +195,7 @@ center_dot_position_1=0.5
 
 ```
 Hardware:   NVIDIA Jetson AGX Orin or Orin Nano (JetPack 5.x+)
-Python:     3.8+
+Python:     3.9+
 ```
 
 ```bash
